@@ -10,7 +10,7 @@ const Navbar = () => {
   const LogoutUser = () => {
     if (window.confirm("You wanna logout?")) {
       localStorage.clear();
-      window.location.href = "/login";
+      window.location.href = "/";
     } else {
       window.location.href = "/recipes";
     }
