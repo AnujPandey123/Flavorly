@@ -19,7 +19,7 @@ const Login = () => {
 
     try {
       let response = await fetch(
-        `${process.env.URI}/auth/login`,
+        "https://flavorly-backend.onrender.com/auth/login",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
