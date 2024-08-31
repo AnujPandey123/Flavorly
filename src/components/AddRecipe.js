@@ -68,7 +68,7 @@ const AddRecipe = () => {
         toast.success("Recipe added successfully");
 
         setTimeout(() => {
-          window.location.href = "/recipes";
+          window.location.href = "./recipes";
         }, 4000);
       } else {
         toast.error("Failed to add recipe:", response.status);
