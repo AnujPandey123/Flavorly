@@ -3,7 +3,7 @@
 
 Check out the live demo of the application here:
 
-      https://flavorly-jgyj.onrender.com/
+https://flavorly-jgyj.onrender.com/
 
 
 A web application for sharing and discovering recipes, built with the MERN stack (MongoDB, Express.js, React, Node.js). Users can create, manage, and explore a wide variety of culinary delights.
