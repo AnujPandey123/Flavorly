@@ -12,7 +12,7 @@ const Navbar = () => {
       localStorage.clear();
       window.location.href = "/";
     } else {
-      window.location.href = "/recipes";
+      window.location.href = "";
     }
   };
 
