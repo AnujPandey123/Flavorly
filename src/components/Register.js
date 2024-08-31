@@ -20,7 +20,7 @@ const Register = () => {
 
     try {
       const response = await fetch(
-        `${process.env.URI}/auth/register`,
+        "https://flavorly-backend.onrender.com/auth/register",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
