@@ -20,7 +20,7 @@ const Register = () => {
 
     try {
       const response = await fetch(
-        `${process.env.URI}auth/register`,
+        `${process.env.URI}/auth/register`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
