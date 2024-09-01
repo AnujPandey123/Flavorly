@@ -48,14 +48,14 @@ const LikedProducts = () => {
           toast.success("Item Removed successfully");
           fetchLikedProducts();
           setTimeout(() => {
-            window.location.href = "/favouriteRecipes";
+            window.location.href = "/";
           }, 4000);
         } else {
           const data = await response.json();
           toast.error(data.error);
         }
       } else {
-        window.location.href = "/favouriteRecipes";
+        window.location.href = "/";
       }
     } catch (error) {
       toast.error("Error removing item from liked products:", error);
